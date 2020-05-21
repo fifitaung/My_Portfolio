@@ -13,8 +13,8 @@
     src: url("/fonts/FrankRuhlLibre-Medium.ttf");
   }
   @font-face {
-    font-family: "Vibes";
-    src: url("/fonts/GreatVibes-Regular.ttf");
+    font-family: "Great Vibes", cursive;
+    src: url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
   }
 
   html {
@@ -73,7 +73,7 @@
   }
   
   h1 {
-    font-family: "Vibes", sans-serif;
+    font-family: "Great Vibes", cursive, sans-serif;
   }
 
 .main-head {
@@ -247,7 +247,7 @@
     font-family: "Ruhl Medium";
   }
   .about-text h2 {
-    font-family: "Vibes";
+    font-family: "Great Vibes", cursive;
     padding: 4rem;
   }
   .about-image {
@@ -285,7 +285,7 @@
   .btn-final:hover{
       background: var(--special-color);
       cursor: pointer; 
-      font-family: "Vibes";   
+      font-family: "Great Vibes", cursive;   
   }
 
   footer {
